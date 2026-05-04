@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend | Sound Reimagined</title>
+    <meta name="description" content="Experience absolute precision audio with the new Ascend Pro.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Premium Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Ascend</a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#features">Features</a>
+                <a href="#experience">Experience</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#pricing" class="btn btn-accent">Buy Now</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Canvas Scroll -->
+    <section id="hero" class="scroll-container">
+        <div class="sticky-container">
+            <canvas id="product-canvas"></canvas>
+            <div class="vignette"></div>
+
+            <div class="ui-layer" id="hero-layer">
+                <div class="hero-text" id="hero-text-1">
+                    <h1>Sound, Reimagined.</h1>
+                    <p>The dawn of a new auditory era.</p>
+                </div>
+                <div class="hero-text" id="hero-text-3">
+                    <h1>Feel Every Detail.</h1>
+                    <p>Immerse yourself completely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post-Canvas Content -->
+    <main class="content-wrapper">
+
+        <!-- Story Section -->
+        <section id="story" class="section story-section">
+            <div class="container text-center fade-up">
+                <h2 class="massive-title">Designed for Those Who Demand More.</h2>
+                <div class="story-text-wrap">
+                    <p>Crafted from aerospace-grade aluminum and tuned by industry-leading sound engineers, Ascend
+                        represents the absolute pinnacle of modern acoustic technology. We stripped away the unnecessary
+                        to focus purely on performance, comfort, and an unmistakable aesthetic. It is not just an
+                        auditory device; it is a lifestyle statement for the uncompromising.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Center Ripple Wave Section -->
+        <section id="ripple-wave" class="section bg-darker" style="padding-bottom: 0;">
+            <div class="container text-center">
+                <h2 class="section-heading fade-up">Resonance.</h2>
+                <p class="fade-up delay-1" style="margin-bottom: 0;">Sound that expands and fills your space.</p>
+            </div>
+
+            <div class="ring-wave-container" id="ring-wave-container">
+                <div class="ring-center-image">
+                    <img src="earpods.png" alt="Ascend EarPods" />
+                </div>
+                <div class="dotted-ring"></div>
+                <div class="dotted-ring"></div>
+                <div class="dotted-ring"></div>
+                <div class="dotted-ring"></div>
+                <div class="dotted-ring"></div>
+            </div>
+        </section>
+
+        <!-- Deep Features Section -->
+        <section id="features" class="section">
+            <div class="container">
+                <h2 class="section-heading fade-up">Unrivaled Technology.</h2>
+                <div class="features-grid-advanced">
+                    <div class="feature-box fade-up delay-1">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <line x1="23" y1="9" x2="17" y2="15"></line>
+                                <line x1="17" y1="9" x2="23" y2="15"></line>
+                            </svg>
+                        </div>
+                        <h3>Active Noise Cancellation</h3>
+                        <p>Cut through the chaos. Our advanced ANC technology analyzes environmental noise 100 times per
+                            second and adapts in real-time. Whether you are on a flight or in a bustling cafe, stay
+                            focused on what matters.</p>
+                    </div>
+                    <div class="feature-box fade-up delay-2">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                <path
+                                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>360° Spatial Audio</h3>
+                        <p>Experience music as if you were in the center of the studio. Dynamic head tracking
+                            dynamically pans frequencies entirely around you, creating a cinematic soundscape previously
+                            impossible in headphones.</p>
+                    </div>
+                    <div class="feature-box fade-up delay-3">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                <line x1="12" y1="19" x2="12" y2="22"></line>
+                            </svg>
+                        </div>
+                        <h3>Studio-Grade Mics</h3>
+                        <p>Your voice, crystal clear. A meticulously arranged array of 6 beam-forming microphones
+                            isolate your speech from background wind and traffic, ensuring flawless calls anywhere.</p>
+                    </div>
+                    <div class="feature-box fade-up delay-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="4" y1="21" x2="4" y2="14"></line>
+                                <line x1="4" y1="10" x2="4" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12" y2="3"></line>
+                                <line x1="20" y1="21" x2="20" y2="16"></line>
+                                <line x1="20" y1="12" x2="20" y2="3"></line>
+                                <line x1="1" y1="14" x2="7" y2="14"></line>
+                                <line x1="9" y1="8" x2="15" y2="8"></line>
+                                <line x1="17" y1="16" x2="23" y2="16"></line>
+                            </svg>
+                        </div>
+                        <h3>Adaptive Equalization</h3>
+                        <p>Your ears are unique. Ascend uses inward-facing microphones to measure what you're hearing
+                            and instantly adjusts the low and mid frequencies to deliver rich, consistent audio tailored
+                            just for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Split Section -->
+        <section id="experience" class="section split-section">
+            <div class="container split-container">
+                <div class="split-text fade-up">
+                    <h2 class="section-heading left-align">Feel the Music,<br>Not the Device.</h2>
+                    <p>We completely redesigned the canopy. Constructed from a breathable knit mesh, it distributes
+                        weight evenly to reduce on-head pressure. The acoustically engineered memory foam ear cushions
+                        provide a gentle, uncompromising seal—the foundation of incredible sound.</p>
+                    <p>With an intuitive digital crown, control volume, skip tracks, and answer calls seamlessly without
+                        ever looking down.</p>
+                </div>
+                <div class="split-visual fade-up delay-2">
+                    <div class="floating-image">
+                        <!-- Pulling one of the frames for visualization -->
+                        <img src="images/frame_0150.jpg" alt="Comfort focus">
+                        <div class="ambient-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Specs Grid -->
+        <section id="specs" class="section bg-darker">
+            <div class="container">
+                <h2 class="section-heading fade-up">Specifications.</h2>
+                <div class="spec-grid fade-up delay-1">
+                    <div class="spec-item">
+                        <span class="spec-label">Battery Life</span>
+                        <span class="spec-value">24 Hours</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Charging</span>
+                        <span class="spec-value">Fast Charge (5min = 2hr)</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Connectivity</span>
+                        <span class="spec-value">Bluetooth 5.3 + LE</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Compatibility</span>
+                        <span class="spec-value">iOS, Android, Windows, Mac</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Weight</span>
+                        <span class="spec-value">245 grams (Ultra-light)</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Drivers</span>
+                        <span class="spec-value">40mm Custom Titanium Drivers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase Full Screen Cover -->
+        <section id="showcase" class="section showcase-section">
+            <div class="showcase-content">
+                <div class="showcase-bg-glow"></div>
+                <img src="images/frame_0090.jpg" alt="Ascend Product Profile" class="showcase-img fade-up">
+            </div>
+        </section>
+
+        <!-- Social Proof / Reviews -->
+        <section id="reviews" class="section">
+            <div class="container">
+                <h2 class="section-heading fade-up">Don't Just Take Our Word For It.</h2>
+                <div class="reviews-grid">
+                    <div class="review-card fade-up delay-1">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Absolutely stunning sound quality. They feel incredibly premium, and the
+                            active noise cancellation completely blocks out my noisy commute."</p>
+                        <p class="reviewer">— Michael T., Audiophile</p>
+                    </div>
+                    <div class="review-card fade-up delay-2">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"I've owned every major brand, but the spatial audio on the Ascend Pro
+                            puts you inside the studio. The comfort is unmatched, even after 8 hours."</p>
+                        <p class="reviewer">— Sarah J., Music Producer</p>
+                    </div>
+                    <div class="review-card fade-up delay-3">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"The battery actually lasts the advertised 24 hours. Paired instantly
+                            with my phone and laptop. Easily the best purchase I've made this year."</p>
+                        <p class="reviewer">— David K., Tech Reviewer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section id="comparison" class="section bg-darker">
+            <div class="container">
+                <h2 class="section-heading fade-up">See The Difference.</h2>
+                <div class="comparison-table-wrapper fade-up delay-1">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th class="highlight-col">Ascend Pro</th>
+                                <th>Other Brands</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sound Architecture</td>
+                                <td class="highlight-col">Custom Titanium Driver</td>
+                                <td>Standard Plastic Drivers</td>
+                            </tr>
+                            <tr>
+                                <td>Noise Cancellation</td>
+                                <td class="highlight-col">Adaptive 100x/sec</td>
+                                <td>Static ANC</td>
+                            </tr>
+                            <tr>
+                                <td>Battery Life</td>
+                                <td class="highlight-col">24 Hours</td>
+                                <td>12 - 18 Hours</td>
+                            </tr>
+                            <tr>
+                                <td>Build Material</td>
+                                <td class="highlight-col">Aerospace Aluminum</td>
+                                <td>Polycarbonate Plastic</td>
+                            </tr>
+                            <tr>
+                                <td>Head Tracking Spatial</td>
+                                <td class="highlight-col">✔ Yes</td>
+                                <td>✘ No</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section">
+            <div class="container">
+                <div class="pricing-card fade-up">
+                    <div class="badge">In Stock</div>
+                    <h2>Ascend Pro</h2>
+                    <p class="pricing-subtext">Everything you need. Nothing you don't.</p>
+                    <div class="price">$299</div>
+                    <ul class="feature-list">
+                        <li><span>✔</span> Studio-grade fidelity</li>
+                        <li><span>✔</span> Zero-pressure ear cushions</li>
+                        <li><span>✔</span> Next-gen adaptive ANC</li>
+                        <li><span>✔</span> Hard-shell travel case included</li>
+                    </ul>
+
+                    <div class="pricing-actions">
+                        <button class="btn btn-accent btn-large">Buy Now</button>
+                        <!-- <button class="btn btn-outline btn-large">Add to Cart</button> -->
+                    </div>
+                    <!-- <p class="urgency-text">🔥 High demand. Limited stock available.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section bg-darker">
+            <div class="container">
+                <h2 class="section-heading fade-up">Frequently Asked Questions.</h2>
+                <div class="faq-accordion fade-up delay-1">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is it compatible with all devices?</h3>
+                            <span class="plus-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Ascend Pro uses the latest Bluetooth 5.3 technology, providing seamless
+                                compatibility across iOS, Android, Windows, and Mac devices with absolutely zero
+                                latency.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How long does the battery actually last?</h3>
+                            <span class="plus-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You can expect a full 24 hours of continuous playback with Active Noise Cancellation
+                                turned on. With our fast-charge system, a quick 5-minute charge provides 2 hours of
+                                listening time.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is the warranty policy?</h3>
+                            <span class="plus-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We stand completely behind our craftsmanship. Every Ascend Pro comes with a 2-year
+                                limited warranty covering any manufacturer defects, along with a 30-day
+                                no-questions-asked return policy.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is the delivery time?</h3>
+                            <span class="plus-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer free express 2-day shipping globally. Orders placed before 2 PM EST ship exactly
+                                the same day from our nearest fulfillment center.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section id="cta" class="section cta-section fade-up">
+            <div class="container">
+                <h2 class="massive-title">Ready to Experience the Difference?</h2>
+                <p>Join thousands of users upgrading to the final word in premium audio.</p>
+                <div style="margin-top: 3rem;">
+                    <a href="#pricing" class="btn btn-accent btn-large">Order Now</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <div class="logo">Ascend</div>
+                <p class="footer-pitch">Crafting the future of sound through relentless innovation and precise
+                    engineering.</p>
+                <div class="social-icons">
+                    <a href="#">X</a>
+                    <a href="#">IG</a>
+                    <a href="#">IN</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Products</h4>
+                <a href="#">Ascend Pro</a>
+                <a href="#">Ascend Lite</a>
+                <a href="#">Accessories</a>
+                <a href="#">Gift Cards</a>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Order Tracking</a>
+                <a href="#">Warranty</a>
+                <a href="#">Returns</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Compliance</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Ascend Audio Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
